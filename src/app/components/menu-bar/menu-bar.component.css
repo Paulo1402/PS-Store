@@ -36,3 +36,18 @@
   color: blue;
   font-weight: 600;
 }
+
+@media (max-width: 530px) {
+  .menu-bar__container {
+    flex-direction: column;
+    height: fit-content;
+
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .menu-bar__item ul {
+    gap: 10px;
+  }
+}

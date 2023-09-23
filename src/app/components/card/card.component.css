@@ -8,6 +8,8 @@
   display: flex;
   overflow: hidden;
   margin-top: 10px;
+
+  cursor: pointer;
 }
 
 
@@ -19,4 +21,18 @@
 
 .card__img:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 530px) {
+  .card__container {
+    width: 250px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 330px) {
+  .card__container {
+    width: 200px;
+    height: 350px;
+  }
 }
